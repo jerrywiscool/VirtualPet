@@ -1,8 +1,34 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+ size(400,400);
+};
+void draw()
+{
+  fill(#B4AFAF);
+  ellipse(260,110,100,100);
+  ellipse(130,110,100,100);
+  noFill();
+  fill(#FFC0CB);
+  ellipse(260,110,50,50);
+  ellipse(130,110,50,50);
+  noFill();
+  fill(#B4AFAF);
+  ellipse(200,115,120,120);
+  noFill();
+  fill(255,255,255);
+  ellipse(160,120,30,30);
+  ellipse(240,120,30,30);
+  noFill();
+  fill(0,0,0);
+  ellipse(160,120,15,15);
+  ellipse(240,120,15,15);
+  fill(#B4AFAF);
+  ellipse(200,250,170,170);
+  ellipse(200,160,40,90);
+  ellipse(275,200,60,60);
+  ellipse(130,200,60,60);
+  ellipse(275,280,60,60);
+  ellipse(130,280,60,60);
+  noFill();
+  arc(250,335,100,100,PI/6,PI);
 }
-void draw(){
-  //more of your code here
-}
-
