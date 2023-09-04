@@ -1,0 +1,16 @@
+void setup()
+{
+size(400,400);
+};
+void draw()
+{
+fill(#FF0000);
+rect(120,170,60,90);
+rect(220,170,60,90);
+arc(200,180,160,300,PI,2*PI);
+ellipse(75,140,100,40);
+ellipse(325,140,100,40);
+noFill();
+fill(#FFFFFF);
+ellipse(200,110,100,40);
+}
